@@ -11,6 +11,13 @@ const theme = extendTheme({
   fonts: {
     heading: 'Hue-Medium',
   },
+  styles: {
+    global: {
+      body: {
+        backgroundColor: '#E2E2E2',
+      },
+    },
+  },
 });
 
 function MyApp({ Component, pageProps }: AppProps) {
