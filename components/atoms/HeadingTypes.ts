@@ -1,5 +1,6 @@
-import { TypographyProps } from '@chakra-ui/react';
+import { TypographyProps, Heading } from '@chakra-ui/react';
 
-type HeadingType = TypographyProps & { children: string };
+type HeadingType = TypographyProps &
+  React.ComponentProps<typeof Heading> & { children: string };
 
 export type { HeadingType };
