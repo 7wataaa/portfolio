@@ -1,24 +1,6 @@
-import '../styles/globals.css';
+import { ChakraProvider } from '@chakra-ui/react';
 import type { AppProps } from 'next/app';
-import { ChakraProvider, extendTheme } from '@chakra-ui/react';
-
-const theme = extendTheme({
-  colors: {
-    heading: {
-      main: '#047800',
-    },
-  },
-  fonts: {
-    heading: 'Hue-Medium',
-  },
-  styles: {
-    global: {
-      body: {
-        backgroundColor: '#E2E2E2',
-      },
-    },
-  },
-});
+import { theme } from '../styles/theme';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
