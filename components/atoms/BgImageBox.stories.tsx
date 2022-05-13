@@ -7,5 +7,8 @@ export default {
 } as ComponentMeta<typeof BgImageBox>;
 
 export const Index: ComponentStoryObj<typeof BgImageBox> = {
-  args: {},
+  args: {
+    h: '500px',
+    w: '500px',
+  },
 };
