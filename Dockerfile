@@ -4,8 +4,6 @@ RUN apk update && apk add git less
 
 WORKDIR /app
 
-COPY package*.json ./
+COPY . .
 
 RUN yarn
-
-COPY . .
