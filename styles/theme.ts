@@ -1,6 +1,11 @@
 import { extendTheme } from '@chakra-ui/react';
 
 export const theme = extendTheme({
+  components: {
+    Heading: {
+      baseStyle: { fontWeight: 'normal' },
+    },
+  },
   colors: {
     heading: {
       main: '#047800',
