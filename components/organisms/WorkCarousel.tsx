@@ -1,5 +1,4 @@
 import {
-  Box,
   Center,
   HStack,
   Tab,
@@ -11,24 +10,26 @@ import { WorkCarouselType } from './WorkCarouselTypes';
 
 export const WorkCarousel = ({ contents }: WorkCarouselType) => {
   const mainContentTabPanels = contents.map((e, i) => {
-    return (
-      <TabPanel key={i}>
-        <Box>{e.main}</Box>
-      </TabPanel>
-    );
+    return <TabPanel key={i}>{e.main}</TabPanel>;
   });
 
   const digistContentTabs = contents.map((e, i) => {
     return (
-      <Tab key={i} _selected={{ boxShadow: '0 0 0 3px #4299e199' }}>
-        <Center boxSize="100px">{e.digest ?? e.main}</Center>
+      <Tab
+        key={i}
+        width="100px"
+        height="100px"
+        overflow="clip"
+        _selected={{ boxShadow: '0 0 0 3px #4299e199' }}
+      >
+        {e.digest ?? e.main}
       </Tab>
     );
   });
 
   return (
     <Tabs variant="line" align="center">
-      <TabPanels>{mainContentTabPanels}</TabPanels>
+      <TabPanels marginBottom="5">{mainContentTabPanels}</TabPanels>
 
       <Center>
         <HStack spacing="5">{digistContentTabs}</HStack>
