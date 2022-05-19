@@ -1,5 +1,6 @@
-export { SkillContent } from './SkillContent';
-export { Header } from './Header';
 export { AboutMeContent } from './AboutMeContent';
+export { Header } from './Header';
+export { SkillContent } from './SkillContent';
 export { WorkCarousel } from './WorkCarousel';
+export { WorkDescription } from './WorkDescription';
 export { WorkPageHeader } from './WorkPageHeader';

@@ -5,6 +5,11 @@ export const theme = extendTheme({
     Heading: {
       baseStyle: { fontWeight: 'normal' },
     },
+    Divider: {
+      baseStyle: {
+        borderColor: '#707070',
+      },
+    },
   },
   colors: {
     heading: {

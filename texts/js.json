@@ -43,5 +43,14 @@
       }
     ]
   },
-  "META_DESCRIPTION": "7wataaaのポートフォリオサイトです。エンジニアとしてこれまで制作した作品や身についたスキルなどを掲載しています。"
+  "META_DESCRIPTION": "7wataaaのポートフォリオサイトです。エンジニアとしてこれまで制作した作品や身についたスキルなどを掲載しています。",
+  "WORKS": {
+    "ABCBOT": {
+      "title": "abc-notification-bot",
+      "summary": "AtCoderのContestを通知するDiscordボット",
+      "description": "隔週週末の夜に開催されているAtCoder\nBeginner Contestの通知ボットがあったら便利だと思ったので制作しました｡\n開催の1日前と30分前と1分前にDiscordで通知を発信します。\n\nORMは前々から興味があったPrismaを使用しました。\nPrismaは型付けがしっかりしていたり、テーブル定義ファイルがわかりやすかったりと使用感がとても好みでした。\n\nLink: https://github.com/7wataaa/abc-discord-bot\n",
+      "languages": ["TypeScript", "GAS (Google Action Script)"],
+      "tags": ["Heroku", "Prisma", "Docker", "Discord.JS"]
+    }
+  }
 }
