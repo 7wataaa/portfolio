@@ -52,5 +52,27 @@
       "languages": ["TypeScript", "GAS (Google Action Script)"],
       "tags": ["Heroku", "Prisma", "Docker", "Discord.JS"]
     }
-  }
+  },
+  "WORK_CARDS": [
+    {
+      "name": "abc-notification-bot",
+      "pagePath": "/works/abcbot",
+      "thumbnailPath": "/works/abcbot/helpcommand.png"
+    },
+    {
+      "name": "nnt",
+      "pagePath": "/works/nnt",
+      "thumbnailPath": "/works/nnt/nnt.png"
+    },
+    {
+      "name": "nanomemo",
+      "pagePath": "/works/nanomemo",
+      "thumbnailPath": "/works/nanomemo/nanomemo.png"
+    },
+    {
+      "name": "memoapp",
+      "pagePath": "/works/memoapp",
+      "thumbnailPath": "/works/memoapp/memoapp.png"
+    }
+  ]
 }
