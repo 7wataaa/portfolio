@@ -71,6 +71,13 @@
         "Firebase Cloud Firestore",
         "Draft.js"
       ]
+    },
+    "NNT": {
+      "title": "NNT",
+      "summary": "新しいタブを改善するChrome拡張機能",
+      "description": "Google Chromeの新しいタブページを改善したくて制作しました。\n新しいタブで開かれるページが時計と簡易的なメモ機能を持ったページになります。\n\nこのChrome拡張機能で初めてJavaScriptを触りました。プログラミング経験がほぼない状態から作ったので改善点は多いですが、いい経験になったと思います。\n\nメモの保存機能にはChrome Storage APIを使用し、アカウントごとに共有できるようになっています。",
+      "languages": ["JavaScript"],
+      "tags": ["Chrome Extension"]
     }
   },
   "WORK_CARDS": [
