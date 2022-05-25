@@ -51,6 +51,13 @@
       "description": "隔週週末の夜に開催されているAtCoder\nBeginner Contestの通知ボットがあったら便利だと思ったので制作しました｡\n開催の1日前と30分前と1分前にDiscordで通知を発信します。\n\nORMは前々から興味があったPrismaを使用しました。\nPrismaは型付けがしっかりしていたり、テーブル定義ファイルがわかりやすかったりと使用感がとても好みでした。\n\nLink: https://github.com/7wataaa/abc-discord-bot\n",
       "languages": ["TypeScript", "GAS (Google Action Script)"],
       "tags": ["Heroku", "Prisma", "Docker", "Discord.JS"]
+    },
+    "MEMOAPP": {
+      "title": "memoapp",
+      "summary": "タグ付き階層構造のメモアプリ",
+      "description": "Flutterを使ってなにか作りたかったので制作しました。\n「タグ付け」と「フォルダ階層構造」という2つの管理方法を取れることが売りのアプリです。\n\n言語であるDartは、JavaScriptにもJavaにも似た言語でとても書きやすかったです。(Cascade notationが好きです。)\n状態管理はRiverpodを使用しました。とても良かったです。\n\nmBaaSにはFirebaseを使用して、ユーザーごとにメモの同期ができる機能を実装しました。\n認証のFirebase Authenticationは簡単に複数プロバイダーの設定ができてとても便利でした。",
+      "languages": ["Dart (Flutter)"],
+      "tags": ["Firebase Autentication", "Firebase Cloud Firestore", "Riverpod"]
     }
   },
   "WORK_CARDS": [
