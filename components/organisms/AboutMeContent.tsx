@@ -1,5 +1,5 @@
 import { Box, Center, HStack, Text } from '@chakra-ui/react';
-import i from '../../text/js.json';
+import i from '../../texts/js.json';
 import { Heading, MyIcon } from '../atoms';
 import { Contacts } from '../molecules';
 

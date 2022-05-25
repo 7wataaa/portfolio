@@ -1,0 +1,105 @@
+{
+  "SELF_INTRODUCTION": "プログラミングが好きな高校生です。\n趣味レベルですがアプリ開発や電子工作などで遊んでいます。\n最近安定化電源を買いました。\n好きな食べ物は麺類全般です。\nよろしくお願いします",
+  "GITHUB_CONTACT": {
+    "itemName": "GitHub",
+    "urlLabel": "@7wataaa",
+    "url": "https://github.com/7wataaa"
+  },
+  "EMAIL_CONTACT": {
+    "itemName": "Email",
+    "urlLabel": "7wataaa@gmail.com",
+    "url": "mailto:7wataaa@gmail.com"
+  },
+  "LANGUAGES": {
+    "TWO_STAR": ["TypeScript", "Dart", "C++"],
+    "ONE_STAR": ["C#", "Python", "ShellScript"],
+    "STAR_DESCRIPTION": "★★ - 一通り扱える\n★　 - 基本構文のみ"
+  },
+  "WEB": {
+    "COLUMN1": ["React", "Flutter", "Firebase"],
+    "COLUMN2": ["Express.js", "Next.js", "Prisma DB"]
+  },
+  "OTHERS": {
+    "data": [
+      {
+        "skillName": "Git/GitHub",
+        "description": "Actionsを利用したCI/CDができる程度"
+      },
+      {
+        "skillName": "Docker",
+        "description": "Docker-composeを使い自由に環境を作れる程度"
+      },
+      {
+        "skillName": "Adobe XD",
+        "description": "アプリのモックアップを作ることができる程度"
+      },
+      {
+        "skillName": "Atomic Design",
+        "description": "勉強中、このポートフォリオ制作で使用"
+      },
+      {
+        "skillName": "Storybook",
+        "description": "このポートフォリオ制作で使用"
+      }
+    ]
+  },
+  "META_DESCRIPTION": "7wataaaのポートフォリオサイトです。エンジニアとしてこれまで制作した作品や身についたスキルなどを掲載しています。",
+  "WORKS": {
+    "ABCBOT": {
+      "title": "abc-notification-bot",
+      "summary": "AtCoderのContestを通知するDiscordボット",
+      "description": "隔週週末の夜に開催されているAtCoder\nBeginner Contestの通知ボットがあったら便利だと思ったので制作しました｡\n開催の1日前と30分前と1分前にDiscordで通知を発信します。\n\nORMは前々から興味があったPrismaを使用しました。\nPrismaは型付けがしっかりしていたり、テーブル定義ファイルがわかりやすかったりと使用感がとても好みでした。\n\nLink: https://github.com/7wataaa/abc-discord-bot\n",
+      "languages": ["TypeScript", "GAS (Google Action Script)"],
+      "tags": ["Heroku", "Prisma", "Docker", "Discord.JS"]
+    },
+    "MEMOAPP": {
+      "title": "memoapp",
+      "summary": "タグ付き階層構造のメモアプリ",
+      "description": "Flutterを使ってなにか作りたかったので制作しました。\n「タグ付け」と「フォルダ階層構造」という2つの管理方法を取れることが売りのアプリです。\n\n言語であるDartは、JavaScriptにもJavaにも似た言語でとても書きやすかったです。(Cascade notationが好きです。)\n状態管理はRiverpodを使用しました。とても良かったです。\n\nmBaaSにはFirebaseを使用して、ユーザーごとにメモの同期ができる機能を実装しました。\n認証のFirebase Authenticationは簡単に複数プロバイダーの設定ができてとても便利でした。",
+      "languages": ["Dart (Flutter)"],
+      "tags": ["Firebase Autentication", "Firebase Cloud Firestore", "Riverpod"]
+    },
+    "NANOMEMO": {
+      "title": "nanomemo",
+      "summary": "タグ付きのメモアプリ",
+      "description": "Reactを使ってなにか作りたかったので制作しました。\nメモにタグ付けを行って辿りやすくできることが売りのアプリです。\n\nこのアプリの制作過程でReactを少しだけ使えるようになりました。\nMaterial-UIはAndroid OSで馴染み深いデザインを簡単に実装できてとても良かったです。",
+      "languages": ["TypeScript"],
+      "tags": [
+        "Material-UI",
+        "styled-components",
+        "Firebase Autentication",
+        "Firebase Cloud Firestore",
+        "Draft.js"
+      ]
+    },
+    "NNT": {
+      "title": "NNT",
+      "summary": "新しいタブを改善するChrome拡張機能",
+      "description": "Google Chromeの新しいタブページを改善したくて制作しました。\n新しいタブで開かれるページが時計と簡易的なメモ機能を持ったページになります。\n\nこのChrome拡張機能で初めてJavaScriptを触りました。プログラミング経験がほぼない状態から作ったので改善点は多いですが、いい経験になったと思います。\n\nメモの保存機能にはChrome Storage APIを使用し、アカウントごとに共有できるようになっています。",
+      "languages": ["JavaScript"],
+      "tags": ["Chrome Extension"]
+    }
+  },
+  "WORK_CARDS": [
+    {
+      "name": "abc-notification-bot",
+      "pagePath": "/works/abcbot",
+      "thumbnailPath": "/works/abcbot/helpcommand.png"
+    },
+    {
+      "name": "nnt",
+      "pagePath": "/works/nnt",
+      "thumbnailPath": "/works/nnt/nnt.png"
+    },
+    {
+      "name": "nanomemo",
+      "pagePath": "/works/nanomemo",
+      "thumbnailPath": "/works/nanomemo/nanomemo.png"
+    },
+    {
+      "name": "memoapp",
+      "pagePath": "/works/memoapp",
+      "thumbnailPath": "/works/memoapp/memoapp.png"
+    }
+  ]
+}
