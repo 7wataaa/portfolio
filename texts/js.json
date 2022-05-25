@@ -58,6 +58,19 @@
       "description": "Flutterを使ってなにか作りたかったので制作しました。\n「タグ付け」と「フォルダ階層構造」という2つの管理方法を取れることが売りのアプリです。\n\n言語であるDartは、JavaScriptにもJavaにも似た言語でとても書きやすかったです。(Cascade notationが好きです。)\n状態管理はRiverpodを使用しました。とても良かったです。\n\nmBaaSにはFirebaseを使用して、ユーザーごとにメモの同期ができる機能を実装しました。\n認証のFirebase Authenticationは簡単に複数プロバイダーの設定ができてとても便利でした。",
       "languages": ["Dart (Flutter)"],
       "tags": ["Firebase Autentication", "Firebase Cloud Firestore", "Riverpod"]
+    },
+    "NANOMEMO": {
+      "title": "nanomemo",
+      "summary": "タグ付きのメモアプリ",
+      "description": "Reactを使ってなにか作りたかったので制作しました。\nメモにタグ付けを行って辿りやすくできることが売りのアプリです。\n\nこのアプリの制作過程でReactを少しだけ使えるようになりました。\nMaterial-UIはAndroid OSで馴染み深いデザインを簡単に実装できてとても良かったです。",
+      "languages": ["TypeScript"],
+      "tags": [
+        "Material-UI",
+        "styled-components",
+        "Firebase Autentication",
+        "Firebase Cloud Firestore",
+        "Draft.js"
+      ]
     }
   },
   "WORK_CARDS": [
