@@ -1,5 +1,6 @@
 import { useBreakpointValue } from '@chakra-ui/react';
 import { Image } from '../../components/atoms';
+import { WorkMovie } from '../../components/molecules';
 import { WorkCarousel, WorkDescription } from '../../components/organisms';
 import { WorkPageTemplate } from '../../components/templates';
 import i from '../../texts/js.json';
@@ -25,7 +26,22 @@ const NNTPage = () => {
               />
             ),
           },
-          /* TODO: 動画ファイルを追加する */
+          {
+            main: (
+              <WorkMovie
+                boxSize={imageSize}
+                googleCloudMovieURL="https://drive.google.com/file/d/1cE9vnQkwzh5XBgOQOD2xUFh49jS1CJEN/preview"
+              />
+            ),
+            digest: (
+              <Image
+                width={imageSize}
+                height={imageSize}
+                alt="nnt overview-thumbnail image"
+                src="/works/nnt/overview-thumbnail.jpg"
+              />
+            ),
+          },
         ]}
       />
       <WorkDescription data={i.WORKS.NNT} />
