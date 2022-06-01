@@ -78,9 +78,21 @@
       "description": "Google Chromeの新しいタブページを改善したくて制作しました。\n新しいタブで開かれるページが時計と簡易的なメモ機能を持ったページになります。\n\nこのChrome拡張機能で初めてJavaScriptを触りました。プログラミング経験がほぼない状態から作ったので改善点は多いですが、いい経験になったと思います。\n\nメモの保存機能にはChrome Storage APIを使用し、アカウントごとに共有できるようになっています。",
       "languages": ["JavaScript"],
       "tags": ["Chrome Extension"]
+    },
+    "PARA_FEED_READER": {
+      "title": "Para-Feed-Reader",
+      "summary": "複数カラム表示ができるRSSフィードリーダー",
+      "description": "ニュースサイトの巡回を楽にしたくて制作しました。\n登録したサイトのRSSフィードが一覧表示できます。\n\nこのアプリで初めてNext.jsを採用してみました。環境構築が楽だったり、API Routesでサーバーサイドも一緒に書けたり、さらにSSRやSSGも実装できたりと、評判の良さも納得の開発体験の良さでした。\n\nまた、開発効率を上げるためにGitHub Actionsで自動デプロイを行うようにしました。使ってみると便利で好きになりました。\n\n認証にはNextAuthを使用し、Google認証を実装しました。GCPの設定に梃子摺りましたが無事実装できてよかったです。\n\nLink: https://para-feed-reader.herokuapp.com",
+      "languages": ["Next.js", "TypeScript"],
+      "tags": ["Prisma", "Linaria", "NextAuth", "GCP"]
     }
   },
   "WORK_CARDS": [
+    {
+      "name": "Para-Feed-Reader",
+      "pagePath": "/works/para-feed-reader",
+      "thumbnailPath": "/works/para-feed-reader/para-feed-reader.png"
+    },
     {
       "name": "abc-notification-bot",
       "pagePath": "/works/abcbot",
