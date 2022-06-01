@@ -32,7 +32,7 @@ const ParaFeedReaderPage = () => {
                 googleCloudMovieURL="https://drive.google.com/file/d/1YZhxl_ZyCw9aIrRwxShe-u57GqtuwlOg/preview"
               />
             ),
-            digest: (
+            thumbnail: (
               <Image
                 width={imageSize}
                 height={imageSize}

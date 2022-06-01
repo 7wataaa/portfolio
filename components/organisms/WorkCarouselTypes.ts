@@ -1,6 +1,6 @@
 type CarouselContent = {
   main: React.ReactNode;
-  digest?: React.ReactNode;
+  thumbnail?: React.ReactNode;
 };
 
 type WorkCarouselType = {

@@ -32,7 +32,7 @@ const NNTPage = () => {
                 googleCloudMovieURL="https://drive.google.com/file/d/1cE9vnQkwzh5XBgOQOD2xUFh49jS1CJEN/preview"
               />
             ),
-            digest: (
+            thumbnail: (
               <Image
                 width={imageSize}
                 height={imageSize}
