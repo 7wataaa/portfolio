@@ -7,8 +7,7 @@ import i from '../../texts/js.json';
 
 const NNTPage = () => {
   const imageSize = useBreakpointValue({
-    base: '500px',
-    sm: '300px',
+    base: '300px',
     md: '500px',
   });
 
