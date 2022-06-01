@@ -89,6 +89,11 @@
   },
   "WORK_CARDS": [
     {
+      "name": "Para-Feed-Reader",
+      "pagePath": "/works/para-feed-reader",
+      "thumbnailPath": "/works/para-feed-reader/para-feed-reader.png"
+    },
+    {
       "name": "abc-notification-bot",
       "pagePath": "/works/abcbot",
       "thumbnailPath": "/works/abcbot/helpcommand.png"
