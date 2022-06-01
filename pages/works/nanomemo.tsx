@@ -7,8 +7,7 @@ import i from '../../texts/js.json';
 
 const NanomemoPage = () => {
   const imageSize = useBreakpointValue({
-    base: '500px',
-    sm: '300px',
+    base: '300px',
     md: '500px',
   });
 
@@ -33,7 +32,7 @@ const NanomemoPage = () => {
                 googleCloudMovieURL="https://drive.google.com/file/d/1Y5x02CuZWD5EW6322ilfLq39Oldn8DKB/preview"
               />
             ),
-            digest: (
+            thumbnail: (
               <Image
                 width={imageSize}
                 height={imageSize}
@@ -49,7 +48,7 @@ const NanomemoPage = () => {
                 googleCloudMovieURL="https://drive.google.com/file/d/168AhNGY1dx0vxvF1uLOyONpvdPkQ_NeU/preview"
               />
             ),
-            digest: (
+            thumbnail: (
               <Image
                 width={imageSize}
                 height={imageSize}

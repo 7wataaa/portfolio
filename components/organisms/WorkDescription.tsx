@@ -12,7 +12,7 @@ import { WorkDescriptionType } from './WorkDescriptionTypes';
 
 export const WorkDescription = ({ data }: WorkDescriptionType) => {
   return (
-    <VStack align="start" paddingX="6" w={['auto', '50%']}>
+    <VStack align="start" paddingX="6">
       <Heading fontSize={['3xl', '5xl']}>{data.title}</Heading>
       <Divider minWidth="80%" />
       <Text fontSize="2xl">{data.summary}</Text>

@@ -22,7 +22,7 @@ export const WorkCarousel = ({ contents }: WorkCarouselType) => {
         overflow="clip"
         _selected={{ boxShadow: '0 0 0 3px #4299e199' }}
       >
-        {e.digest ?? e.main}
+        {e.thumbnail ?? e.main}
       </Tab>
     );
   });

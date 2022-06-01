@@ -7,8 +7,7 @@ import i from '../../texts/js.json';
 
 const NNTPage = () => {
   const imageSize = useBreakpointValue({
-    base: '500px',
-    sm: '300px',
+    base: '300px',
     md: '500px',
   });
 
@@ -33,7 +32,7 @@ const NNTPage = () => {
                 googleCloudMovieURL="https://drive.google.com/file/d/1cE9vnQkwzh5XBgOQOD2xUFh49jS1CJEN/preview"
               />
             ),
-            digest: (
+            thumbnail: (
               <Image
                 width={imageSize}
                 height={imageSize}

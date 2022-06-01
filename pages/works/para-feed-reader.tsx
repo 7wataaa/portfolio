@@ -7,8 +7,7 @@ import i from '../../texts/js.json';
 
 const ParaFeedReaderPage = () => {
   const imageSize = useBreakpointValue({
-    base: '500px',
-    sm: '300px',
+    base: '300px',
     md: '500px',
   });
 
@@ -33,7 +32,7 @@ const ParaFeedReaderPage = () => {
                 googleCloudMovieURL="https://drive.google.com/file/d/1YZhxl_ZyCw9aIrRwxShe-u57GqtuwlOg/preview"
               />
             ),
-            digest: (
+            thumbnail: (
               <Image
                 width={imageSize}
                 height={imageSize}
