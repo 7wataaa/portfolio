@@ -1,20 +1,30 @@
-import { VStack } from '@chakra-ui/react';
+import { VStack, useBreakpointValue } from '@chakra-ui/react';
 import { LinkButton } from '../atoms';
 
 export const WorkPageHeader = () => {
+  const isHeaderVisible = useBreakpointValue({
+    base: true,
+    sm: false,
+    md: true,
+  });
+
   return (
-    <VStack
-      minWidth={['0', '50px']}
-      height={['0', '100vh']}
-      paddingY="3"
-      boxSizing="border-box"
-      bgImage="/background.png"
-      bgPosition="left"
-      bgSize="cover"
-      bgRepeat="no-repeat"
-      bgColor="white"
-    >
-      <LinkButton aria-label="Back to home page" />
-    </VStack>
+    <>
+      {isHeaderVisible && (
+        <VStack
+          minWidth={['50px']}
+          height={['100vh']}
+          paddingY="3"
+          boxSizing="border-box"
+          bgImage="/background.png"
+          bgPosition="left"
+          bgSize="cover"
+          bgRepeat="no-repeat"
+          bgColor="white"
+        >
+          <LinkButton aria-label="Back to home page" />
+        </VStack>
+      )}
+    </>
   );
 };
