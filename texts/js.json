@@ -48,9 +48,10 @@
     "ABCBOT": {
       "title": "abc-notification-bot",
       "summary": "AtCoderのContestを通知するDiscordボット",
-      "description": "隔週週末の夜に開催されているAtCoder\nBeginner Contestの通知ボットがあったら便利だと思ったので制作しました｡\n開催の1日前と30分前と1分前にDiscordで通知を発信します。\n\nORMは前々から興味があったPrismaを使用しました。\nPrismaは型付けがしっかりしていたり、テーブル定義ファイルがわかりやすかったりと使用感がとても好みでした。\n\nLink: https://github.com/7wataaa/abc-discord-bot\n",
+      "description": "隔週週末の夜に開催されているAtCoder\nBeginner Contestの通知ボットがあったら便利だと思ったので制作しました｡\n開催の1日前と30分前と1分前にDiscordで通知を発信します。\n\nORMは前々から興味があったPrismaを使用しました。\nPrismaは型付けがしっかりしていたり、テーブル定義ファイルがわかりやすかったりと使用感がとても好みでした。",
       "languages": ["TypeScript", "GAS (Google Action Script)"],
-      "tags": ["Heroku", "Prisma", "Docker", "Discord.JS"]
+      "tags": ["Heroku", "Prisma", "Docker", "Discord.JS"],
+      "repository": "7wataaa/abc-discord-bot"
     },
     "MEMOAPP": {
       "title": "memoapp",
@@ -70,21 +71,25 @@
         "Firebase Autentication",
         "Firebase Cloud Firestore",
         "Draft.js"
-      ]
+      ],
+      "repository": "7wataaa/nanomemo"
     },
     "NNT": {
       "title": "NNT",
       "summary": "新しいタブを改善するChrome拡張機能",
       "description": "Google Chromeの新しいタブページを改善したくて制作しました。\n新しいタブで開かれるページが時計と簡易的なメモ機能を持ったページになります。\n\nこのChrome拡張機能で初めてJavaScriptを触りました。プログラミング経験がほぼない状態から作ったので改善点は多いですが、いい経験になったと思います。\n\nメモの保存機能にはChrome Storage APIを使用し、アカウントごとに共有できるようになっています。",
       "languages": ["JavaScript"],
-      "tags": ["Chrome Extension"]
+      "tags": ["Chrome Extension"],
+      "repository": "7wataaa/NNT"
     },
     "PARA_FEED_READER": {
       "title": "Para-Feed-Reader",
       "summary": "複数カラム表示ができるRSSフィードリーダー",
-      "description": "ニュースサイトの巡回を楽にしたくて制作しました。\n登録したサイトのRSSフィードが一覧表示できます。\n\nこのアプリで初めてNext.jsを採用してみました。環境構築が楽だったり、API Routesでサーバーサイドも一緒に書けたり、さらにSSRやSSGも実装できたりと、評判の良さも納得の開発体験の良さでした。\n\nまた、開発効率を上げるためにGitHub Actionsで自動デプロイを行うようにしました。使ってみると便利で好きになりました。\n\n認証にはNextAuthを使用し、Google認証を実装しました。GCPの設定に梃子摺りましたが無事実装できてよかったです。\n\nLink: https://para-feed-reader.herokuapp.com",
+      "description": "ニュースサイトの巡回を楽にしたくて制作しました。\n登録したサイトのRSSフィードが一覧表示できます。\n\nこのアプリで初めてNext.jsを採用してみました。環境構築が楽だったり、API Routesでサーバーサイドも一緒に書けたり、さらにSSRやSSGも実装できたりと、評判の良さも納得の開発体験の良さでした。\n\nまた、開発効率を上げるためにGitHub Actionsで自動デプロイを行うようにしました。使ってみると便利で好きになりました。\n\n認証にはNextAuthを使用し、Google認証を実装しました。GCPの設定に梃子摺りましたが無事実装できてよかったです。",
       "languages": ["Next.js", "TypeScript"],
-      "tags": ["Prisma", "Linaria", "NextAuth", "GCP"]
+      "tags": ["Prisma", "Linaria", "NextAuth", "GCP"],
+      "applicationURL": "https://para-feed-reader.herokuapp.com",
+      "repository": "7wataaa/para-feed-reader"
     }
   },
   "WORK_CARDS": [
