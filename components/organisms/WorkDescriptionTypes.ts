@@ -5,6 +5,8 @@ type WorkDescriptionType = {
     description: string;
     languages: string[];
     tags: string[];
+    repository?: string;
+    applicationURL?: string;
   };
 };
 

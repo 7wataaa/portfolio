@@ -1,4 +1,5 @@
 import {
+  Box,
   Divider,
   HStack,
   Tag,
@@ -7,7 +8,8 @@ import {
   Wrap,
   WrapItem,
 } from '@chakra-ui/react';
-import { Heading } from '../atoms';
+import { ContactLink, Heading } from '../atoms';
+import { RepositoryCard } from './RepositoryCard';
 import { WorkDescriptionType } from './WorkDescriptionTypes';
 
 export const WorkDescription = ({ data }: WorkDescriptionType) => {
@@ -17,6 +19,26 @@ export const WorkDescription = ({ data }: WorkDescriptionType) => {
       <Divider minWidth="80%" />
       <Text fontSize="2xl">{data.summary}</Text>
       <Text whiteSpace="pre-wrap">{data.description}</Text>
+
+      <Box paddingTop="2" paddingBottom="3">
+        {data.applicationURL && (
+          <ContactLink
+            display="inline-block"
+            marginBottom="3"
+            target="_blank"
+            href={data.applicationURL}
+          >
+            リンクはこちら（{data.applicationURL}）
+          </ContactLink>
+        )}
+
+        {data.repository && (
+          <Box>
+            <RepositoryCard repository={data.repository} />
+          </Box>
+        )}
+      </Box>
+
       <Wrap>
         {data.languages.map((str, i) => {
           return (
