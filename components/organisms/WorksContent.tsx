@@ -13,7 +13,7 @@ export const WorksContent = () => {
 
       <Center>
         <SimpleGrid spacingX="10" spacingY="5" columns={[1, 2]}>
-          {i.WORK_CARDS.map((e, i) => (
+          {Object.values(i.WORKS).map((e, i) => (
             <Fade key={i} bottom delay={i * 100}>
               <WorkCard key={i} {...e} />
             </Fade>

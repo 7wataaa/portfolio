@@ -1,5 +1,6 @@
 type WorkCardType = {
-  name: string;
+  title: string;
+  summary: string;
   pagePath: string;
   thumbnailPath: string;
 };
