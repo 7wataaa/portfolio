@@ -20,17 +20,24 @@ export const WorkDescription = ({ data }: WorkDescriptionType) => {
       <Text fontSize="2xl">{data.summary}</Text>
       <Text whiteSpace="pre-wrap">{data.description}</Text>
 
-      {data.applicationURL && (
-        <ContactLink target="_blank" paddingTop="3" href={data.applicationURL}>
-          リンクはこちら（{data.applicationURL}）
-        </ContactLink>
-      )}
+      <Box paddingTop="2" paddingBottom="3">
+        {data.applicationURL && (
+          <ContactLink
+            display="inline-block"
+            marginBottom="3"
+            target="_blank"
+            href={data.applicationURL}
+          >
+            リンクはこちら（{data.applicationURL}）
+          </ContactLink>
+        )}
 
-      {data.repository && (
-        <Box paddingBottom="3">
-          <RepositoryCard repository={data.repository} />
-        </Box>
-      )}
+        {data.repository && (
+          <Box>
+            <RepositoryCard repository={data.repository} />
+          </Box>
+        )}
+      </Box>
 
       <Wrap>
         {data.languages.map((str, i) => {
