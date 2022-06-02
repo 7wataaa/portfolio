@@ -6,7 +6,7 @@ const nextConfig = {
     defaultLocale: 'jp',
   },
   images: {
-    domains: ['gh-card.dev'],
+    domains: ['gh-card.dev', 'gh-card.dev/repos'],
   },
 };
 
