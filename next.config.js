@@ -3,7 +3,10 @@ const nextConfig = {
   reactStrictMode: true,
   i18n: {
     locales: ['jp'],
-    defaultLocale:'jp'
+    defaultLocale: 'jp',
+  },
+  images: {
+    domains: ['gh-card.dev'],
   },
 };
 
