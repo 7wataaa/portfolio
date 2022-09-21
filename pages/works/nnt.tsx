@@ -3,7 +3,7 @@ import { Image } from '../../components/atoms';
 import { WorkMovie } from '../../components/molecules';
 import { WorkCarousel, WorkDescription } from '../../components/organisms';
 import { WorkPageTemplate } from '../../components/templates';
-import i from '../../texts/js.json';
+import i from '../../texts/ja.json';
 
 const NNTPage = () => {
   const imageSize = useBreakpointValue({

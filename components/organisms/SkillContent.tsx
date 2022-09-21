@@ -1,5 +1,5 @@
 import { Box, Center, HStack, Text } from '@chakra-ui/react';
-import i from '../../texts/js.json';
+import i from '../../texts/ja.json';
 import { BgImageBox, Heading, SkillBox } from '../atoms';
 import { SkillList, SkillListWithDescription } from '../molecules';
 import Fade from 'react-reveal/Fade';

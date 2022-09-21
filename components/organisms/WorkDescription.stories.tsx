@@ -1,6 +1,6 @@
 import { WorkDescription } from './WorkDescription';
 import { ComponentMeta, ComponentStoryObj } from '@storybook/react';
-import i from '../../texts/js.json';
+import i from '../../texts/ja.json';
 
 export default {
   title: 'organisms/WorkDescription',

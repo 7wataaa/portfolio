@@ -1,5 +1,5 @@
 import { Box, Center, SimpleGrid } from '@chakra-ui/react';
-import i from '../../texts/js.json';
+import i from '../../texts/ja.json';
 import { Heading } from '../atoms';
 import { WorkCard } from '../molecules';
 import Fade from 'react-reveal/Fade';

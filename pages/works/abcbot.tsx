@@ -2,7 +2,7 @@ import { useBreakpointValue } from '@chakra-ui/react';
 import { Image } from '../../components/atoms';
 import { WorkCarousel, WorkDescription } from '../../components/organisms';
 import { WorkPageTemplate } from '../../components/templates';
-import i from '../../texts/js.json';
+import i from '../../texts/ja.json';
 
 const ABCbotPage = () => {
   const imageSize = useBreakpointValue({

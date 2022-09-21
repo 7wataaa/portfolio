@@ -1,6 +1,6 @@
 import { Box } from '@chakra-ui/react';
 import Head from 'next/head';
-import i from '../../texts/js.json';
+import i from '../../texts/ja.json';
 
 export const MainPageTemplate = ({
   children,

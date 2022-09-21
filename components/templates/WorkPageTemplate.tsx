@@ -1,7 +1,7 @@
 import { Grid, GridItem, HStack } from '@chakra-ui/react';
 import Head from 'next/head';
 import React from 'react';
-import i from '../../texts/js.json';
+import i from '../../texts/ja.json';
 import { WorkPageHeader } from '../organisms';
 
 export const WorkPageTemplate = ({
