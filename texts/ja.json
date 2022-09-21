@@ -11,13 +11,29 @@
     "url": "mailto:7wataaa@gmail.com"
   },
   "LANGUAGES": {
-    "TWO_STAR": ["TypeScript", "Dart", "C++"],
-    "ONE_STAR": ["C#", "Python", "ShellScript"],
+    "TWO_STAR": [
+      "TypeScript",
+      "Dart",
+      "C++"
+    ],
+    "ONE_STAR": [
+      "C#",
+      "Python",
+      "ShellScript"
+    ],
     "STAR_DESCRIPTION": "★★ - 一通り扱える\n★　 - 基本構文のみ"
   },
   "WEB": {
-    "COLUMN1": ["React", "Flutter", "Firebase"],
-    "COLUMN2": ["Express.js", "Next.js", "Prisma DB"]
+    "COLUMN1": [
+      "React",
+      "Flutter",
+      "Firebase"
+    ],
+    "COLUMN2": [
+      "Express.js",
+      "Next.js",
+      "Prisma DB"
+    ]
   },
   "OTHERS": {
     "data": [
@@ -49,19 +65,48 @@
       "title": "Para-Feed-Reader",
       "summary": "複数カラム表示ができるRSSフィードリーダー",
       "description": "ニュースサイトの巡回を楽にしたくて制作しました。\n登録したサイトのRSSフィードが一覧表示できます。\n\nこのアプリで初めてNext.jsを採用してみました。環境構築が楽だったり、API Routesでサーバーサイドも一緒に書けたり、さらにSSRやSSGも実装できたりと、評判の良さも納得の開発体験の良さでした。\n\nまた、開発効率を上げるためにGitHub Actionsで自動デプロイを行うようにしました。使ってみると便利で好きになりました。\n\n認証にはNextAuthを使用し、Google認証を実装しました。GCPの設定に梃子摺りましたが無事実装できてよかったです。",
-      "languages": ["Next.js", "TypeScript"],
-      "tags": ["Prisma", "Linaria", "NextAuth", "GCP"],
+      "languages": [
+        "Next.js",
+        "TypeScript"
+      ],
+      "tags": [
+        "Prisma",
+        "Linaria",
+        "NextAuth",
+        "GCP"
+      ],
       "applicationURL": "https://para-feed-reader.herokuapp.com",
       "repository": "7wataaa/para-feed-reader",
       "pagePath": "/works/para-feed-reader",
       "thumbnailPath": "/works/para-feed-reader/para-feed-reader.png"
     },
+    "WRAP_WITH_FOR_JSX": {
+      "title": "\"Wrap with ...\" for JSX",
+      "summary": "囲むタグを挿入するVSCode拡張機能",
+      "description": "Reactアプリ制作を効率化したくて制作しました。\nカーソル上のタグを新しいタグで囲む作業を効率化できます。\n\nこの動作はもともとFlutter拡張機能に搭載されていた\"Wrap with ...\"というコマンドを移植したもので、使用頻度は低いものの、やろうとすると面倒だった作業を効率的に進めることができます。\n\n今回初めてVSCode拡張機能を作成しました。拡張機能の制作を通して、一番好きなエディタである、VSCode自体にも詳しくなれたので良かったです。今後も何かしらの形で貢献できるといいなと思っています。",
+      "languages": [
+        "TypeScript"
+      ],
+      "tags": [],
+      "applicationURL": "https://marketplace.visualstudio.com/items?itemName=7wataaa.wrapwith-for-jsx",
+      "repository": "7wataaa/wrapwith-for-jsx",
+      "pagePath": "/works/wrap-with-for-jsx",
+      "thumbnailPath": "/works/wrap-with-for-jsx/wrap-with-for-jsx.png"
+    },
     "ABCBOT": {
       "title": "abc-notification-bot",
       "summary": "AtCoderのContestを通知するDiscordボット",
       "description": "隔週週末の夜に開催されているAtCoder\nBeginner Contestの通知ボットがあったら便利だと思ったので制作しました｡\n開催の1日前と30分前と1分前にDiscordで通知を発信します。\n\nORMは前々から興味があったPrismaを使用しました。\nPrismaは型付けがしっかりしていたり、テーブル定義ファイルがわかりやすかったりと使用感がとても好みでした。",
-      "languages": ["TypeScript", "GAS (Google Action Script)"],
-      "tags": ["Heroku", "Prisma", "Docker", "Discord.JS"],
+      "languages": [
+        "TypeScript",
+        "GAS (Google Action Script)"
+      ],
+      "tags": [
+        "Heroku",
+        "Prisma",
+        "Docker",
+        "Discord.JS"
+      ],
       "repository": "7wataaa/abc-discord-bot",
       "pagePath": "/works/abcbot",
       "thumbnailPath": "/works/abcbot/helpcommand.png"
@@ -70,8 +115,12 @@
       "title": "NNT",
       "summary": "新しいタブを改善するChrome拡張機能",
       "description": "Google Chromeの新しいタブページを改善したくて制作しました。\n新しいタブで開かれるページが時計と簡易的なメモ機能を持ったページになります。\n\nこのChrome拡張機能で初めてJavaScriptを触りました。プログラミング経験がほぼない状態から作ったので改善点は多いですが、いい経験になったと思います。\n\nメモの保存機能にはChrome Storage APIを使用し、アカウントごとに共有できるようになっています。",
-      "languages": ["JavaScript"],
-      "tags": ["Chrome Extension"],
+      "languages": [
+        "JavaScript"
+      ],
+      "tags": [
+        "Chrome Extension"
+      ],
       "repository": "7wataaa/NNT",
       "pagePath": "/works/nnt",
       "thumbnailPath": "/works/nnt/nnt.png"
@@ -80,7 +129,9 @@
       "title": "nanomemo",
       "summary": "タグ付きのメモアプリ",
       "description": "Reactを使ってなにか作りたかったので制作しました。\nメモにタグ付けを行って辿りやすくできることが売りのアプリです。\n\nこのアプリの制作過程でReactを少しだけ使えるようになりました。\nMaterial-UIはAndroid OSで馴染み深いデザインを簡単に実装できてとても良かったです。",
-      "languages": ["TypeScript"],
+      "languages": [
+        "TypeScript"
+      ],
       "tags": [
         "Material-UI",
         "styled-components",
@@ -96,7 +147,9 @@
       "title": "memoapp",
       "summary": "タグ付き階層構造のメモアプリ",
       "description": "Flutterを使ってなにか作りたかったので制作しました。\n「タグ付け」と「フォルダ階層構造」という2つの管理方法を取れることが売りのアプリです。\n\n言語であるDartは、JavaScriptにもJavaにも似た言語でとても書きやすかったです。(Cascade notationが好きです。)\n状態管理はRiverpodを使用しました。とても良かったです。\n\nmBaaSにはFirebaseを使用して、ユーザーごとにメモの同期ができる機能を実装しました。\n認証のFirebase Authenticationは簡単に複数プロバイダーの設定ができてとても便利でした。",
-      "languages": ["Dart (Flutter)"],
+      "languages": [
+        "Dart (Flutter)"
+      ],
       "tags": [
         "Firebase Autentication",
         "Firebase Cloud Firestore",
