@@ -5,8 +5,8 @@ services:
     build: .
     tty: true
     ports:
-      - 3000:3000
-      - 6006:6006
+      - 3000:3000 # yarn dev
+      - 6006:6006 # yarn storybook
     volumes:
       - .:/app:delegated
       - /app/node_modules
