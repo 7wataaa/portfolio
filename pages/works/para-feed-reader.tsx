@@ -49,9 +49,3 @@ const ParaFeedReaderPage = () => {
 };
 
 export default ParaFeedReaderPage;
-
-export async function getStaticProps() {
-  return {
-    props: {},
-  };
-}

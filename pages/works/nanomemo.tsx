@@ -65,9 +65,3 @@ const NanomemoPage = () => {
 };
 
 export default NanomemoPage;
-
-export async function getStaticProps() {
-  return {
-    props: {},
-  };
-}

@@ -42,9 +42,3 @@ const WrapWithForJSXPage = () => {
 };
 
 export default WrapWithForJSXPage;
-
-export async function getStaticProps() {
-  return {
-    props: {},
-  };
-}

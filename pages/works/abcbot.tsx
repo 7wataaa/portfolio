@@ -42,9 +42,3 @@ const ABCbotPage = () => {
 };
 
 export default ABCbotPage;
-
-export async function getStaticProps() {
-  return {
-    props: {},
-  };
-}
