@@ -1,4 +1,5 @@
 @font-face {
   font-family: 'Hue-Medium';
   src: url('./../fonts/Hue-Medium.otf') format('opentype');
+  font-display: swap;
 }
