@@ -1,5 +1,5 @@
 import { Box } from '@chakra-ui/react';
-import BgImage from '../../public/background.png';
+import BgImage from '../../public/background.avif';
 
 export const BgImageBox = ({
   children,

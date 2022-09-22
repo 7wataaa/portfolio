@@ -17,7 +17,7 @@ export const WorkPageHeader = () => {
       height={['100vh']}
       paddingY="3"
       boxSizing="border-box"
-      bgImage="/background.png"
+      bgImage="/background.avif"
       bgPosition="left"
       bgSize="cover"
       bgRepeat="no-repeat"
