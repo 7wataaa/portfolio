@@ -49,9 +49,3 @@ const NNTPage = () => {
 };
 
 export default NNTPage;
-
-export async function getStaticProps() {
-  return {
-    props: {},
-  };
-}
