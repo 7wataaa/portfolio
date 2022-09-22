@@ -32,9 +32,3 @@ const MemoAppPage = () => {
 };
 
 export default MemoAppPage;
-
-export async function getStaticProps() {
-  return {
-    props: {},
-  };
-}
