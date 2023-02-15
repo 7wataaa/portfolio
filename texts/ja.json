@@ -75,7 +75,6 @@
         "NextAuth",
         "GCP"
       ],
-      "applicationURL": "https://para-feed-reader.herokuapp.com",
       "repository": "7wataaa/para-feed-reader",
       "pagePath": "/works/para-feed-reader",
       "thumbnailPath": "/works/para-feed-reader/para-feed-reader.png"
